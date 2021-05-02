@@ -4,7 +4,7 @@ import './style.css';
 function Header() {
     return (
         <div>
-            <body>
+            <body className="color">
             <nav className="navbar navbar-expand-lg p-3 navbar-light">
             <a className="navbar-brand name" href="index.html">Marisa NeSmith</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
