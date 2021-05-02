@@ -1,0 +1,36 @@
+
+body {
+    /* background-color: rgb(238,216,211); */
+    background-color: #efe9db;
+}
+
+.name {
+    /* text-transform: uppercase; */
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 500;
+    font-size: 44px;
+    color: #766c5b !important;
+}
+
+a {
+    color: #766c5b;
+
+}
+
+a:hover {
+    color: #bbad94;
+    text-decoration: underline;
+
+}
+
+.navbar-nav {
+    color: #766c5b;
+}
+
+li {
+    color: #766c5b;
+}
+
+.navbar-toggler-icon {
+    color: #766c5b !important;
+}
