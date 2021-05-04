@@ -11,11 +11,11 @@ function Contact() {
                 <div class="row">
                     <div class="col">
                         <h2 class="underline"> Resume </h2>
-                        <img class="card-img-top mt-5 mb-5" src="./assets/images/marisa-resume.jpg" alt="marisa nesmith resume"/>
+                        <img class="card-img-top mt-5 mb-5" src="./images/marisa-resume.jpg" alt="marisa nesmith resume"/>
                     </div>
                     <div class="col">
                         <h2 class="underline"> Media Kit</h2>
-                        <img class="card-img-top mt-5 mb-5" src="./assets/images/This World Traveled Media Kit.jpg" alt="this world traveled media kit"/>
+                        <img class="card-img-top mt-5 mb-5" src="./images/This World Traveled Media Kit.jpg" alt="this world traveled media kit"/>
                     </div>
                 </div>
             </div>
