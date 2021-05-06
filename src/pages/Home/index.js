@@ -1,14 +1,30 @@
 import React from 'react';
 import "./style.css";
-import { Button } from "@material-ui/core";
-import Icon from "@material-ui/core/Icon";
+import { Button } from "@material-ui/core"
+import { makeStyles } from "@material-ui/core/styles";
+import InstagramIcon from "@material-ui/icons/Instagram";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import PublicIcon from "@material-ui/icons/Public";
 
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import 'font-awesome/css/font-awesome.min.css';
-
-
+const useStyles = makeStyles({
+    button: {
+        backgroundColor: "#766c5b",
+        color: "white",
+        padding: ".8rem",
+        borderRadius: "8px",
+        textAlign: "center",
+        margin: "auto",
+        marginBottom: "25px"
+    },
+    icons: {
+        marginRight: "25px",
+        marginLeft: "25px"
+    }
+})
 
 function Home() {
+    const styles = useStyles();
     return (
         <body className="color">
         <div className="container bg-white p-5 about">
@@ -32,7 +48,13 @@ function Home() {
                 perfect fit for me. I am looking forward to a future career in web development which will challenge my mind
                 and allow me to live a life that I desire.</p>
         </div>
-        <Icon className="fab fa-instagram"/>
+        <div className="center">
+        <GitHubIcon className={styles.icons} fontSize="large" />
+        <InstagramIcon className={styles.icons} fontSize="large" />
+        <LinkedInIcon className={styles.icons} fontSize="large" />
+        <PublicIcon className={styles.icons} fontSize="large" />
+        </div>
+    
         {/* <div className="row"> 
             <div className="col-3 text-center">
                 <a className="btn btn-color" href="https://www.instagram.com/thisworldtraveled" target="_blank" className="btn text-white mb-4">Instagram</a>
