@@ -1,6 +1,7 @@
 import React from 'react';
 import "./style.css";
 import { Button } from "@material-ui/core";
+import Icon from "@material-ui/core/Icon";
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import 'font-awesome/css/font-awesome.min.css';
@@ -31,6 +32,7 @@ function Home() {
                 perfect fit for me. I am looking forward to a future career in web development which will challenge my mind
                 and allow me to live a life that I desire.</p>
         </div>
+        <Icon className="fab fa-instagram"/>
         {/* <div className="row"> 
             <div className="col-3 text-center">
                 <a className="btn btn-color" href="https://www.instagram.com/thisworldtraveled" target="_blank" className="btn text-white mb-4">Instagram</a>
