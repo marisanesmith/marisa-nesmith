@@ -29,7 +29,7 @@ function Home() {
               perfect fit for me. I am looking forward to a future career in web development which will challenge my mind
               and allow me to live a life that I desire.</p>
         </div>
-        <div className="row"> 
+        {/* <div className="row"> 
             <div className="col-3 text-center">
                 <a className="btn btn-color" href="https://www.instagram.com/thisworldtraveled" target="_blank" className="btn text-white mb-4">Instagram</a>
             </div>
@@ -42,7 +42,7 @@ function Home() {
             <div className="col-3 text-center">
                 <a className="btn btn-color" href="https://www.thisworldtraveled.com" target="_blank" className="btn text-white mb-4">Travel Blog</a>
             </div>
-        </div>
+        </div> */}
         </div>
     
     </div>

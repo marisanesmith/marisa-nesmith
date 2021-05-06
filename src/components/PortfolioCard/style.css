@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap');
+
+main {
+    margin-top: 75px;
+}
+
+.card > .content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 15px;
+}
+
+a {
+    color: #766c5b;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.btn-color {
+    background-color: #766c5b;
+    color: white;
+}
+
+.btn-color:hover {
+    color: #bbad94;
+}
+
+.container-fluid {
+    background-color: white;
+}
+
+.img-size {
+    width: 18rem;
+}
+
+.content {
+    margin-bottom: 30px;
+}
