@@ -26,6 +26,13 @@ const PortfolioProjects = [
         live_url: "https://radiant-ocean-90430.herokuapp.com/",
         buttonName: "View Crypto Market"
     },
+    {
+        image: "./images/employee.png",
+        title: "Employee Directory",
+        description: "Using a random user API I created an employee directory where employers can search through their database to find an employee. They can also search by name and list the names in alphabetical order",
+        live_url: "https://marisanesmith.github.io/employee-directory-react/",
+        buttonName: "Search for an Employee"
+    },
 ]
 
 
