@@ -1,8 +1,6 @@
 import React from 'react';
 import "./style.css";
 import PortfolioCard from '../../components/PortfolioCard';
-import { Container } from "@material-ui/core";
-import { Grid } from "@material-ui/core";
 
 
 

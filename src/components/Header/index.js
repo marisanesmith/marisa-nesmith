@@ -7,7 +7,8 @@ function Header() {
         <div>
             <body className="color">
             <nav className="navbar navbar-expand-lg p-3 navbar-light">
-            <Link className="nav-link name" to="/"> Marisa NeSmith </Link>            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <Link className="nav-link name" to="/"> Marisa NeSmith </Link> 
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
         </button>
       <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -22,7 +23,7 @@ function Header() {
           <Link className="nav-link" to="/"> About </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="photography.html"> Photography </a>
+            <Link className="nav-link" to="/photography"> Photography </Link>
           </li>
         </ul>
       </div>

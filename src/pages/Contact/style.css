@@ -1,0 +1,12 @@
+main {
+    margin-top: 75px;
+}
+
+a {
+    color: #766c5b;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
