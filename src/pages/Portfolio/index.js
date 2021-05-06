@@ -33,6 +33,20 @@ const PortfolioProjects = [
         live_url: "https://marisanesmith.github.io/employee-directory-react/",
         buttonName: "Search for an Employee"
     },
+    {
+        image: "./images/fitness.png",
+        title: "Fitness Tracker",
+        description: "A fully functional fitness tracker where users can enter their daily workouts",
+        live_url: "https://whispering-escarpment-18429.herokuapp.com/?id=607867796dc8240015dd3ec1",
+        buttonName: "Track Your Fitness"
+    },
+    {
+        image: "./images/planner.png",
+        title: "Daily Planner",
+        description: "A daily planner application where users can enter in upcoming events and keep track of all the things they have to do",
+        live_url: "https://marisanesmith.github.io/Daily_Planner/",
+        buttonName: "Enter Your Events"
+    },
 ]
 
 
