@@ -20,7 +20,14 @@ const PortfolioProjects = [
         description: "This fun and interactive trivia game challenges users to see if they know some JavaScript basics. Give it a go and see how much you know!",
         live_url: "https://marisanesmith.github.io/Trivia_Game/",
         buttonName: "Play the Game"
-    }
+    },
+    {
+        image: "./images/screenshot.png",
+        title: "Crypto Chat",
+        description: "For our second project our team built a full stack program which allows users to view the latest cryptocurrency trends while also creating a space where they can engage and 'chat' with others about the current market.",
+        live_url: "https://radiant-ocean-90430.herokuapp.com/",
+        buttonName: "View Crypto Market"
+    },
 ]
 
 
