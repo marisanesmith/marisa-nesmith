@@ -7,30 +7,37 @@ const useStyles = makeStyles({
     button: {
         backgroundColor: "#766c5b",
         color: "white",
+        '&:hover': {
+            backgroundColor: "#bbad94",
+            color: "white",
+            textDecoration: "none"
+        },
         padding: ".8rem",
         borderRadius: "8px",
         textAlign: "center",
         margin: "auto",
         marginBottom: "25px"
     },
-    icons: {
-        marginRight: "25px",
-        marginLeft: "25px",
+    links: {
+        marginLeft: "10px",
         color: "#766c5b",
         '&:hover': {
             color: "#bbad94",
         }
         
     },
+    bodyColor: {
+        backgroundColor: "#efe9db",
+    }
 })
 
 function Contact() {
     const styles = useStyles();
     return (
-        <main>
+        <main className={styles.bodyColor}>
             <h2>My Contact Information</h2>
-            <h3 class="mt-5"> Email Address: <a href="marisa@thisworldtraveled.com">marisa@thisworldtraveled.com</a></h3>
-            <h3 class="mb-5"> Phone Number: <a href="tel:3218308553">(321)830-8553</a></h3>
+            <h3 class="mt-5"> Email Address: <a className={styles.links} href="marisa@thisworldtraveled.com">marisa@thisworldtraveled.com</a></h3>
+            <h3 class="mb-5"> Phone Number: <a className={styles.links} href="tel:3218308553">(321)830-8553</a></h3>
             <div class="container">
                 <div class="row">
                     <div class="col">

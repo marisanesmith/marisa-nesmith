@@ -10,11 +10,13 @@ const useStyles = makeStyles({
         width: 350,
         marginLeft: "15px",
         marginBottom: "75px",
-        padding: "5px"
+        padding: "10px",
+        backgroundColor: "#efe9db",
     },
     images: {
         height: 200,
-        width: 350
+        width: 330,
+        margin: "center",
     },
     button: {
         backgroundColor: "#766c5b",

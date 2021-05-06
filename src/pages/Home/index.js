@@ -1,6 +1,6 @@
 import React from 'react';
 import "./style.css";
-import { Button } from "@material-ui/core"
+// import { Button } from "@material-ui/core"
 import { makeStyles } from "@material-ui/core/styles";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import GitHubIcon from "@material-ui/icons/GitHub";
@@ -14,15 +14,17 @@ const useStyles = makeStyles({
         color: "#766c5b",
         '&:hover': {
             color: "#bbad94",
-        }
-        
+        }   
     },
+    bodyColor: {
+        backgroundColor: "#efe9db",
+    }
 })
 
 function Home() {
     const styles = useStyles();
     return (
-        <body>
+        <body className={styles.bodyColor}>
         <div className="container bg-white p-5 about">
             <h2 className="pt-3 mb-5"> About Me </h2>
             <hr/>
