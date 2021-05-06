@@ -22,7 +22,7 @@ const PortfolioProjects = [
         buttonName: "Play the Game"
     },
     {
-        image: "./images/screenshot.png",
+        image: "./images/crypto-chat.png",
         title: "Crypto Chat",
         description: "For our second project our team built a full stack program which allows users to view the latest cryptocurrency trends while also creating a space where they can engage and 'chat' with others about the current market.",
         live_url: "https://radiant-ocean-90430.herokuapp.com/",
