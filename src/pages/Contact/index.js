@@ -12,7 +12,16 @@ const useStyles = makeStyles({
         textAlign: "center",
         margin: "auto",
         marginBottom: "25px"
-    }
+    },
+    icons: {
+        marginRight: "25px",
+        marginLeft: "25px",
+        color: "#766c5b",
+        '&:hover': {
+            color: "#bbad94",
+        }
+        
+    },
 })
 
 function Contact() {

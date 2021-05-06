@@ -19,6 +19,11 @@ const useStyles = makeStyles({
     button: {
         backgroundColor: "#766c5b",
         color: "white",
+        '&:hover': {
+            backgroundColor: "#bbad94",
+            color: "white",
+            textDecoration: "none"
+        },
         padding: ".8rem",
         borderRadius: "8px",
         textAlign: "center",

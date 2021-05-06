@@ -8,25 +8,21 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import PublicIcon from "@material-ui/icons/Public";
 
 const useStyles = makeStyles({
-    button: {
-        backgroundColor: "#766c5b",
-        color: "white",
-        padding: ".8rem",
-        borderRadius: "8px",
-        textAlign: "center",
-        margin: "auto",
-        marginBottom: "25px"
-    },
     icons: {
         marginRight: "25px",
-        marginLeft: "25px"
-    }
+        marginLeft: "25px",
+        color: "#766c5b",
+        '&:hover': {
+            color: "#bbad94",
+        }
+        
+    },
 })
 
 function Home() {
     const styles = useStyles();
     return (
-        <body className="color">
+        <body>
         <div className="container bg-white p-5 about">
             <h2 className="pt-3 mb-5"> About Me </h2>
             <hr/>
@@ -49,26 +45,11 @@ function Home() {
                 and allow me to live a life that I desire.</p>
         </div>
         <div className="center">
-        <GitHubIcon className={styles.icons} fontSize="large" />
-        <InstagramIcon className={styles.icons} fontSize="large" />
-        <LinkedInIcon className={styles.icons} fontSize="large" />
-        <PublicIcon className={styles.icons} fontSize="large" />
+        <a href="https://github.com/marisanesmith" rel="noreferrer" target="_blank" className={styles.icons}><GitHubIcon fontSize="large"/></a>
+        <a href="https://www.instagram.com/thisworldtraveled" rel="noreferrer" target="_blank" className={styles.icons}><InstagramIcon fontSize="large"/></a>
+        <a href="https://www.linkedin.com/in/marisa-nesmith" rel="noreferrer" target="_blank" className={styles.icons}><LinkedInIcon fontSize="large"/></a>
+        <a href="https://www.thisworldtraveled.com" rel="noreferrer" target="_blank" className={styles.icons}><PublicIcon fontSize="large"/></a>
         </div>
-    
-        {/* <div className="row"> 
-            <div className="col-3 text-center">
-                <a className="btn btn-color" href="https://www.instagram.com/thisworldtraveled" target="_blank" className="btn text-white mb-4">Instagram</a>
-            </div>
-            <div className="col-3 text-center">
-                <a className="btn btn-color" href="https://www.linkedin.com/in/marisa-nesmith" target="_blank" className="btn text-white mb-4">linkedin</a>
-            </div>
-            <div className="col-3 text-center">
-                <a className="btn btn-color" href="https://github.com/marisanesmith" target="_blank" className="btn text-white mb-4">Github</a>
-            </div>
-            <div className="col-3 text-center">
-                <a className="btn btn-color" href="https://www.thisworldtraveled.com" target="_blank" className="btn text-white mb-4">Travel Blog</a>
-            </div>
-        </div> */}
         </div>
     
     </div>
