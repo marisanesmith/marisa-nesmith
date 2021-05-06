@@ -2,17 +2,26 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Home from './components/Home'
-import Contact from './components/Contact';
+import Home from './pages/Home'
+import Contact from './pages/Contact';
+import Portfolio from './pages/Portfolio';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 function App() {
 
   return (
     <div className="App">
-      <Header />
-      <Home />
-      <Contact />
+      <BrowserRouter>
+        <Header />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/contact">
+            <Contact />
+          </Route> 
+        </Switch>
       <Footer />
+      </BrowserRouter>
     </div>
   );
 
