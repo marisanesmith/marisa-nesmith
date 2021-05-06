@@ -36,7 +36,7 @@ function Contact() {
     return (
         <main className={styles.bodyColor}>
             <h2>My Contact Information</h2>
-            <h3 class="mt-5"> Email Address: <a className={styles.links} href="marisa@thisworldtraveled.com">marisa@thisworldtraveled.com</a></h3>
+            <h3 class="mt-5"> Email Address: <a className={styles.links} href="mailto:marisa@thisworldtraveled.com">marisa@thisworldtraveled.com</a></h3>
             <h3 class="mb-5"> Phone Number: <a className={styles.links} href="tel:3218308553">(321)830-8553</a></h3>
             <div class="container">
                 <div class="row">
