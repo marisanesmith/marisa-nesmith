@@ -6,13 +6,13 @@ import Home from './pages/Home'
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Photography from "./pages/Photography";
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 
 function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Header />
         <Switch>
           <Route exact path={["/", "/marisa-nesmith/"]}><Home /></Route>
@@ -21,7 +21,7 @@ function App() {
           <Route exact path="/photography"><Photography /> </Route>
         </Switch>
       <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 
