@@ -43,7 +43,7 @@ function PortfolioCard(props) {
     const styles = useStyles();
     return (
         <Grid container spacing={3}>
-        <Grid item xs={4} direction="column" justify="center" alignItems="center">
+        <Grid>
             <Card className={styles.root}>
                 <CardActionArea>
                 <div className={styles.images}>

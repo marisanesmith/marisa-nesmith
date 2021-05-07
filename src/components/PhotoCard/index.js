@@ -29,9 +29,7 @@ const useStyles = makeStyles({
 function PhotoCard(props) {
     const styles = useStyles();
     return (
-        <Grid item
-        justify="flex-start"
-        alignItems="flex-start">
+        <Grid item>
             <Card className={styles.root}>
                 <div className={styles.images}>
                     <img className="card-img" src={props.project.image} alt={props.project.alt}/>

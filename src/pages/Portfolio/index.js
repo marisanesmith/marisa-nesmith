@@ -55,11 +55,13 @@ function Portfolio() {
             <div className="mb-5"><h2>My Latest Projects</h2></div>
             <div className="container-fluid p-4">
                 <div className="row">
+                    {PortfolioProjects.map((item) => (
                     <div className="card-body">
-                        {PortfolioProjects.map((item) => (
-                            <PortfolioCard project={item} />
-                        ))}
+                    <div className="col-6">
+                        <PortfolioCard project={item} />
                     </div>
+                    </div>
+                    ))}  
                 </div>
             </div>
         </main>

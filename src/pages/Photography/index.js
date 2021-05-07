@@ -52,10 +52,13 @@ function Photography() {
                 <h2 className="mb-5"> My Photography </h2>
                 <hr/>
                 <div class="row">
-                    <div> 
-                        {PhotoImg.map((item) => (
+                {PhotoImg.map((item) => (
+                    <div className="card-body"> 
+                    <div className="col-3">    
                         <PhotoCard project={item} />
-                    ))} </div>
+                    </div>
+                    </div>
+                    ))} 
                 </div>
                 
             </div>
