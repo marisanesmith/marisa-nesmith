@@ -15,7 +15,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Switch>
-          <Route exact path={["/", "/home", "/marisa-nesmith"]}><Home /></Route>
+          <Route exact path={["/", "/marisa-nesmith"]}><Home /></Route>
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact"><Contact /></Route> 
           <Route exact path="/photography"><Photography /> </Route>
