@@ -25,7 +25,7 @@ This application provides a way for Employers to search through their employee d
 
 To properly run this application you will need to first install your React app by entering npx react-create-app (app name) into your terminal. This will automatically install all the dependencies necessary. Cd into the React app that you created and then enter npm start in your terminal to open your application in your browser. 
 
-After that is complete you will need to deploy the application to Heroku or a similar hosting site to view the fitness tracker online. 
+After that is complete you will need to deploy the application to Heroku or a similar hosting site to view your react portfolio online. 
 
 ## License
 ![GitHub License](https://img.shields.io/badge/license-MIT-green.svg)
