@@ -3,7 +3,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { makeStyles } from "@material-ui/core/styles";
 
-import { Grid, CardActionArea, Card, CardContent, Typography, CardActions } from "@material-ui/core";
+import { Grid, Card, Typography, GridList } from "@material-ui/core";
 
 const useStyles = makeStyles({
     root: {
@@ -20,6 +20,7 @@ const useStyles = makeStyles({
     },
     typography: {
         marginBottom: "20px",
+        marginTop: "10px",
         padding: "10px",
         fontSize: "24px"
         
@@ -29,7 +30,9 @@ const useStyles = makeStyles({
 function PhotoCard(props) {
     const styles = useStyles();
     return (
-        <Grid item>
+        <Grid item
+        justify="flex-start"
+        alignItems="flex-start">
             <Card className={styles.root}>
                 <div className={styles.images}>
                     <img className="card-img" src={props.project.image} alt={props.project.alt}/>

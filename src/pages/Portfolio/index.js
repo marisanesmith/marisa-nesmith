@@ -3,7 +3,6 @@ import "./style.css";
 import PortfolioCard from '../../components/PortfolioCard';
 
 
-
 const PortfolioProjects = [
     {
         image: "./images/weather-dash.png",
@@ -59,7 +58,6 @@ function Portfolio() {
                     <div className="card-body">
                         {PortfolioProjects.map((item) => (
                             <PortfolioCard project={item} />
-                        
                         ))}
                     </div>
                 </div>

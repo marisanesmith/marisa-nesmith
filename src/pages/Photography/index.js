@@ -1,49 +1,51 @@
 import React from 'react';
 import PhotoCard from "../../components/PhotoCard";
-import { makeStyles } from "@material-ui/core/styles";
-
-const useStyles = makeStyles({
-    button: {
-        backgroundColor: "#766c5b",
-        color: "white",
-        '&:hover': {
-            backgroundColor: "#bbad94",
-            color: "white",
-            textDecoration: "none"
-        },
-        padding: ".8rem",
-        borderRadius: "8px",
-        textAlign: "center",
-        margin: "auto",
-        marginBottom: "25px"
-    },
-    links: {
-        marginLeft: "10px",
-        color: "#766c5b",
-        '&:hover': {
-            color: "#bbad94",
-        }
-        
-    },
-    bodyColor: {
-        backgroundColor: "#efe9db",
-    }
-})
 
 const PhotoImg = [
     {
         image: "./images/philippines.jpg",
-        title: "Entalula Island, Philippines",
+        title: "Philippines",
         alt: "Entalula island in the Philippines with turqouise water and a small stretch of white sand beach that is surrounded by palm trees."
     },
     {
-        image: "./images/philippines.jpg",
+        image: "./images/maldives.jpg",
+        title: "Maldives",
         alt: "Over the water villas on stilts in the Maldives with an orange and pink sky during sunset"
+    },
+    {
+        image: "./images/myanmar.jpg",
+        title: "Myanmar",
+        alt: "Girl sitting on a temple covered in bricks with hot air balloons in the sky"
+    },
+    {
+        image: "./images/norway.jpg",
+        title: "Norway",
+        alt: "Red fishing hut houses on rocks by the water with a large mountain in the background"
+    },
+    {
+        image: "./images/bali.jpg",
+        title: "Bali",
+        alt: "Two people walking along a path in Bali surrounded by palm trees"
+    },
+    {
+        image: "./images/maldive.jpg",
+        title: "Maldives",
+        alt: "Two people laying on a sandbank surrounded by blue water in the Maldives with a boat nearby"
+    },
+    {
+        image: "./images/temple.jpg",
+        title: "Bali",
+        alt: "A pink sky during sunset with pink flowers in the foreground and a temple in the background"
+    },
+    {
+        image: "./images/vivian.jpg",
+        title: "Philippines",
+        alt: "A girl sitting on a beach with palm trees and huts behind her"
     },
 ]
 
 function Photography() {
-    const styles = useStyles();
+    
     return (
         <main>
             <div id="portfolio" class="container p-5 mb-5 bg-white">

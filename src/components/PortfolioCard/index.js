@@ -12,6 +12,7 @@ const useStyles = makeStyles({
         marginBottom: "75px",
         padding: "10px",
         backgroundColor: "#efe9db",
+        flexGrow: 1,
     },
     images: {
         height: 200,
@@ -41,7 +42,8 @@ const useStyles = makeStyles({
 function PortfolioCard(props) {
     const styles = useStyles();
     return (
-        <Grid item>
+        <Grid container spacing={3}>
+        <Grid item xs={4} direction="column" justify="center" alignItems="center">
             <Card className={styles.root}>
                 <CardActionArea>
                 <div className={styles.images}>
@@ -58,6 +60,7 @@ function PortfolioCard(props) {
                 <a href={props.project.live_url} className={styles.button}>{props.project.buttonName}</a>
                 </CardActions>
             </Card>
+        </Grid>
         </Grid>
 
         // <main className={styles.root}>
