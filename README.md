@@ -11,7 +11,7 @@
 
 ## Project Overview
 
-This application provides a way for Employers to search through their employee database with ease. Employers will be able to filter through their Employees by typing names into the search bar. They are also able to see a list of names in ascending or descending order.
+A personalized portfolio built with react as a way to display my coding projects and photography. There is also a contact page where future Employers can view my resume, media kit and contact me. 
 
 ![React Portfolio Home Page](./public/images/home-page.png)
 ![React Portfolio Contact Page](./public/images/contact-me.png)
@@ -19,7 +19,7 @@ This application provides a way for Employers to search through their employee d
 ![React Portfolio Photography Page](./public/images/photos.png)
 
 ## Application
-[Live GitHub pages link](https://marisanesmith.github.io/employee-directory-react/)
+[Live GitHub pages link](https://marisanesmith.github.io/marisa-nesmith/)
 
 ## Installation
 
