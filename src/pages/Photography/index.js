@@ -8,17 +8,17 @@ const PhotoImg = [
         alt: "Entalula island in the Philippines with turqouise water and a small stretch of white sand beach that is surrounded by palm trees."
     },
     {
-        image: "./public/images/home-page.png",
+        image: "./public/images/maldives.jpg",
         title: "Maldives",
         alt: "Over the water villas on stilts in the Maldives with an orange and pink sky during sunset"
     },
     {
-        image: "./images/myanmar.jpg",
+        image: "/images/myanmar.jpg",
         title: "Myanmar",
         alt: "Girl sitting on a temple covered in bricks with hot air balloons in the sky"
     },
     {
-        image: "./images/norway.jpg",
+        image: "../public/images/norway.jpg",
         title: "Norway",
         alt: "Red fishing hut houses on rocks by the water with a large mountain in the background"
     },
