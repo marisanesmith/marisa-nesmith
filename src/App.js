@@ -15,8 +15,8 @@ function App() {
       <BrowserRouter>
         <Header />
         <Switch>
-          <Route exact path={["/", "/marisa-nesmith"]}><Home /></Route>
-          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path={["/", "/marisa-nesmith/"]}><Home /></Route>
+          <Route exact path="/portfolio"><Portfolio /></Route>
           <Route exact path="/contact"><Contact /></Route> 
           <Route exact path="/photography"><Photography /> </Route>
         </Switch>
