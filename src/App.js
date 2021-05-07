@@ -13,14 +13,16 @@ function App() {
   return (
     <div className="App">
       <HashRouter>
-        <Header />
+       
         <Switch>
+        <Header />
           <Route exact path={["/", "/marisa-nesmith/"]}><Home /></Route>
           <Route exact path="/portfolio"><Portfolio /></Route>
           <Route exact path="/contact"><Contact /></Route> 
           <Route exact path="/photography"><Photography /> </Route>
+          <Footer />
         </Switch>
-      <Footer />
+      
       </HashRouter>
     </div>
   );
