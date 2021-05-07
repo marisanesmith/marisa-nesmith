@@ -3,7 +3,7 @@ import PhotoCard from "../../components/PhotoCard";
 
 const PhotoImg = [
     {
-        image: "./public/images/philippines.jpg",
+        image: "../../../public/images/philippines.jpg",
         title: "Philippines",
         alt: "Entalula island in the Philippines with turqouise water and a small stretch of white sand beach that is surrounded by palm trees."
     },
