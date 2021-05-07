@@ -63,25 +63,6 @@ function PortfolioCard(props) {
         </Grid>
         </Grid>
 
-        // <main className={styles.root}>
-        //     <div ClassName="container-fluid p-4">
-        //         <div className="row">
-        //             <div className="col-sm m-4">
-        //             <div ClassName="card">
-        //             <div className={styles.images}>
-        //                 <img className="card-img" src={props.project.image} alt={props.project.title}/>
-        //             </div>
-        //             <div className="content">
-        //                 <h5 className="card-title">{props.project.title}</h5>
-        //                 <p className="card-text">{props.project.description}</p>
-        //                 <a href={props.project.live_url} className={styles.button}>{props.project.buttonName}</a>
-        //             </div>
-        //             </div>
-        //             </div>
-        //         </div>
-        //     </div>
-        // </main>
-
     )
 }
 

@@ -1,9 +1,8 @@
 import React from 'react';
-// import "./style.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { makeStyles } from "@material-ui/core/styles";
 
-import { Grid, Card, Typography, GridList } from "@material-ui/core";
+import { Grid, Card, Typography } from "@material-ui/core";
 
 const useStyles = makeStyles({
     root: {
