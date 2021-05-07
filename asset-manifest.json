@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/marisa-nesmith/static/css/main.3217d43c.chunk.css",
+    "main.js": "/marisa-nesmith/static/js/main.83ea9a9d.chunk.js",
+    "main.js.map": "/marisa-nesmith/static/js/main.83ea9a9d.chunk.js.map",
+    "runtime-main.js": "/marisa-nesmith/static/js/runtime-main.cf8ec609.js",
+    "runtime-main.js.map": "/marisa-nesmith/static/js/runtime-main.cf8ec609.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/marisa-nesmith/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.e8567b6a.chunk.js": "/marisa-nesmith/static/js/2.e8567b6a.chunk.js",
+    "static/js/2.e8567b6a.chunk.js.map": "/marisa-nesmith/static/js/2.e8567b6a.chunk.js.map",
+    "index.html": "/marisa-nesmith/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/marisa-nesmith/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.3217d43c.chunk.css.map": "/marisa-nesmith/static/css/main.3217d43c.chunk.css.map",
+    "static/js/2.e8567b6a.chunk.js.LICENSE.txt": "/marisa-nesmith/static/js/2.e8567b6a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf8ec609.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.e8567b6a.chunk.js",
+    "static/css/main.3217d43c.chunk.css",
+    "static/js/main.83ea9a9d.chunk.js"
+  ]
+}
