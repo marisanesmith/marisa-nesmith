@@ -1,5 +1,4 @@
 import React from 'react';
-import './style.css';
 import { makeStyles } from "@material-ui/core/styles";
 
 
@@ -28,26 +27,29 @@ const useStyles = makeStyles({
     },
     bodyColor: {
         backgroundColor: "#efe9db",
+        padding: "30px"
     }
 })
 
 function Contact() {
     const styles = useStyles();
     return (
-        <main className={styles.bodyColor}>
+        <main>
             <h2>My Contact Information</h2>
             <h3 class="mt-5"> Email Address: <a className={styles.links} href="mailto:marisa@thisworldtraveled.com">marisa@thisworldtraveled.com</a></h3>
             <h3 class="mb-5"> Phone Number: <a className={styles.links} href="tel:3218308553">(321)830-8553</a></h3>
-            <div class="container">
+            <div className="container">
+                <div className={styles.bodyColor}>
                 <div class="row">
                     <div class="col">
                         <h2 class="underline"> Resume </h2>
                         <img class="card-img-top mt-5 mb-5" src="./images/marisa-resume.jpg" alt="marisa nesmith resume"/>
                     </div>
-                    <div class="col">
-                        <h2 class="underline"> Media Kit</h2>
-                        <img class="card-img-top mt-5 mb-5" src="./images/This World Traveled Media Kit.jpg" alt="this world traveled media kit"/>
+                    <div className="col">
+                        <h2 classname="underline"> Media Kit</h2>
+                        <img className="card-img-top mt-5 mb-5" src="./images/This World Traveled Media Kit.jpg" alt="this world traveled media kit"/>
                     </div>
+                </div>
                 </div>
             </div>
 

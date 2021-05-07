@@ -3,7 +3,7 @@ import "./style.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { makeStyles } from "@material-ui/core/styles";
 
-import { Grid, CardActionArea, Card, CardContent, Typography, CardActions } from "@material-ui/core";
+import { CardActionArea, Card, CardContent, Typography, CardActions } from "@material-ui/core";
 
 const useStyles = makeStyles({
     root: {
@@ -42,8 +42,6 @@ const useStyles = makeStyles({
 function PortfolioCard(props) {
     const styles = useStyles();
     return (
-        <Grid container spacing={3}>
-        <Grid>
             <Card className={styles.root}>
                 <CardActionArea>
                 <div className={styles.images}>
@@ -60,9 +58,6 @@ function PortfolioCard(props) {
                 <a href={props.project.live_url} className={styles.button}>{props.project.buttonName}</a>
                 </CardActions>
             </Card>
-        </Grid>
-        </Grid>
-
     )
 }
 
