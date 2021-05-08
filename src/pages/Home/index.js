@@ -6,6 +6,7 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import PublicIcon from "@material-ui/icons/Public";
+import cambodia from './images/cambodia.jpg';
 
 const useStyles = makeStyles({
     icons: {
@@ -30,7 +31,7 @@ function Home() {
             <hr/>
         <div className="row">
             <div className="clearfix px-3">
-            <img id="bio-image" src='./images/cambodia.jpg' className="float-left" alt=" Girl walking in front of an ornate temple with gold decor in Cambodia"/>
+            <img id="bio-image" src={cambodia} className="float-left" alt=" Girl walking in front of an ornate temple with gold decor in Cambodia"/>
             <p> Hello! My name is Marisa NeSmith and I am a Registered Dental Hygienist, Travel Blooger,
                 Photographer and Full Stack Web Development student through the University of Central Florida. </p>
             <p> I have been practicing dental hygiene for 13 years with experience working in Florida, North Carolina and
