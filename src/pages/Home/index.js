@@ -6,7 +6,7 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import PublicIcon from "@material-ui/icons/Public";
-import cambodia from './images/cambodia.jpg';
+import cambodia from './public/images/cambodia.jpg';
 
 const useStyles = makeStyles({
     icons: {
